@@ -1,0 +1,33 @@
+.image2 {
+  height: 312px;
+  width: 312px;
+  object-fit: fill;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.top-content {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  animation: 2s ease-out 0s 1 slideIn;
+}
+
+.jordan {
+  color: rgb(252, 113, 33);
+  margin-bottom: 0px;
+}
+
+.creative {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

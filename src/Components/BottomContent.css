@@ -1,0 +1,52 @@
+.svgs {
+  color: rgb(252, 113, 33);
+  height: 40px;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+
+  padding: 20px;
+  padding-left: 0;
+  max-width: 65%;
+  width: auto;
+  margin-left: 20%;
+}
+
+.box {
+  border: 2px solid rgb(252, 113, 33);
+  width: 235px;
+  height: auto;
+  padding: 10px;
+}
+
+.bottom-top {
+  margin-left: 20%;
+  margin-top: 40px;
+}
+
+.what {
+  margin-bottom: 0;
+}
+.my-services {
+  margin-top: 0;
+}
+
+.box h2,
+.box p {
+  margin-top: 0;
+}
+
+.box h2 {
+  margin-bottom: 5px;
+}
+
+.my {
+  border-bottom: 2px solid rgb(252, 113, 33);
+}
+
+.what {
+  color: rgb(252, 113, 33);
+}

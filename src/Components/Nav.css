@@ -1,0 +1,77 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 40px;
+}
+
+ul {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgb(252, 113, 33);
+  font-size: 30px;
+
+  animation: rotation 2s infinite linear;
+}
+
+.logo {
+  animation: rotation 1s 2 linear;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  transition: all 1s ease-in-out;
+  transform: scale(2);
+  display: ;
+}
+
+li a:hover {
+  color: rgb(252, 113, 33);
+}
+
+.contact {
+  background-color: white;
+  background-color: transparent;
+  padding: 20px;
+  color: rgb(252, 113, 33);
+  border: 2px solid rgb(252, 113, 33);
+  letter-spacing: 2px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #000);
+  transition: ease-in-out 2s;
+}
+
+.contact:hover {
+  background-color: rgb(252, 113, 33);
+  color: white;
+  box-shadow: 0 0 10px rgb(247, 102, 69), 0 0 40px rgb(247, 102, 69),
+    0 0 10px rgb(247, 102, 69);
+}
+
+li:hover {
+  transform: scale(1.5);
+  transition: all 1s ease-in;
+}
+
+.v {
+  color: white;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
